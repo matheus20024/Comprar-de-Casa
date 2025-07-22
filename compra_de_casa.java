@@ -12,16 +12,6 @@ public class compra_de_casa {
     idade = resultado.nextInt();
     System.out.println("Digite seu Salário: ");
     salario = resultado.nextDouble();
-    if (idade >= 21){
-        System.out.println(nome+" você passou no requisito - Idade.");
-    }else{
-        System.out.println(nome+" você não passou no requisito - Idade.");
-    }
-    if (salario >= 3000) {
-        System.out.println(nome+" você passou no requisito - Salário.");
-    }else{
-        System.out.println(nome+" você não passou no requisito - Salário.");
-    }
     if (idade >= 21 && salario >= 3000) {
         System.out.println("Parabéns "+nome+", Você pode comprar uma Casa.");
     }else{
